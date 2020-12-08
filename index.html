@@ -11,12 +11,60 @@
     <!-- 3rd party css -->
     <!-- components -->
     <link rel="stylesheet" href="./css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=PT+Serif&display=swap"
+        rel="stylesheet">
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
 </head>
 
 <body>
+    <div class="container hero">
+        <nav>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
 
+        <header>
+            <div class="row">
+                <h1>Ana Beata Rynkevič</h1>
+                <p>Looking for front-end developer internship</p>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <!-- <img src="./img/profilio.png"> -->
+        <div>
+            <h2>Hi, I'm Beata. Nice to meet you.</h2>
+            <p>I'm from Vilnius, Lithuania. I've been working as a waitress for the past 3,5 years in restaurant and
+                have been volunteering for 6 months as creative assistant in environmentally friendly start up
+                "TEXTALE". I've come to a point where I want some change. So now I'm fully commited to learning
+                front-end development. Day by day I've been getting to know HTML, CSS and JavaScript. I'm only at the
+                beginning of this journey. I am able to write some simple scripts and want to further improve my
+                JavaScript skills.
+                I created this website to present my current skills and examples of my code, which could possibly help
+                me find front-end developer internship.
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <span>+37067361521</span>
+            <span>beata.rynkevic1@gmail.com</span>
+        </div>
+        <form action="/my-handling-form-page" method="post">
+            <label for="name"></label>
+            <input type="text" placeholder="Name" id="name" name="user_name">
+            <label for="mail"></label>
+            <input type="email" placeholder="E-mail" id="mail" name="user_email">
+            <label for="msg"></label>
+            <textarea id="msg" placeholder="Message" name="user_message"></textarea>
+            <input type="submit">Send message</button>
+        </form>
+    </footer>
 </body>
 
 </html>

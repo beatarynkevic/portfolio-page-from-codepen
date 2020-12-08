@@ -1,0 +1,36 @@
+body {
+    padding: 25px;
+    background-color: #4E598C;
+    font-family: 'Cormorant Garamond', serif;
+}
+    .container.hero {
+        min-height: 100vh;
+    }
+    header {
+        text-align: center;
+        height: 100px;
+        margin-top: 50px;
+        color: #F2E9E4;
+        text-transform: uppercase;
+    }
+        nav>div {
+            display: inline-block;
+            float: right;
+        }
+            a {
+                display: inline-block;
+                float: left;
+                color: white;
+                text-decoration: none;
+                line-height: 50px;
+                margin-left: 15px;
+                margin-top: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                text-transform: uppercase;
+            }
+            a:hover{
+                background-color: rgb(191,191,191, 0.5);
+                border-radius:8px;
+                color: black;
+            }

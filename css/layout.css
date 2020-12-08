@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 80px 200px 200px 1fr;
+}
+    nav {
+        display: inline-block;
+        grid-column: 1 / 4;
+        position: fixed;
+        width: 95%;
+    }
+    header {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
